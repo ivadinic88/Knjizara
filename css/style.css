@@ -1,0 +1,154 @@
+:root {
+    --primary: #a6a5a5;
+    --light: #F8F8F8;
+    --dark: #252525;
+}
+
+body{
+    background: url(../img/background.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#header{
+    height: 45px;
+    background-color: rgb(204, 179, 206);
+    text-align: end;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 4%;
+    font-family: "Open Sans",sans-serif;
+    font-size:20px;
+    font-weight:500;
+
+} 
+
+#header2{
+    height: 3px;
+    background-color: rgb(175, 154, 177);
+}
+
+
+#footer{
+    height: 80px;
+    margin-top: 50px;
+    background-color: rgb(204, 179, 206);
+
+}
+
+h1,
+h2,
+.h1,
+.h2,
+.fw-bold {
+    font-weight: 600 !important;
+    color:var(--dark) !important;
+}
+
+h3,
+h4,
+.h3,
+.h4,
+.fw-medium {
+    font-weight: 500 !important;
+    color:var(--dark) !important;
+}
+
+h5,
+h6,
+.h5,
+.h6,
+.fw-normal {
+    font-weight: 400 !important;
+    color:var(--light) !important;
+}
+
+
+
+.form-control, .form-control:hover, .form-control:focus, .form-control:root{
+
+    background-color: rgb(204, 179, 206);
+    font-weight: 900 !important;
+    color: black;
+}
+
+.col-md-5{
+    padding-left: 100px;
+}
+
+
+.BtnForm{
+    background-color: rgb(204, 179, 206);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-weight: 800;
+    border: 2px solid rgb(176, 152, 178);
+    color: #2a2a2a;
+    width: 40%;
+    
+}
+
+.BtnFormP{
+    width: 40%;
+    background-color: rgb(204, 179, 206);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-weight: 800;
+    border: 1px double rgb(160, 139, 161);
+    color: #2a2a2a;
+    
+
+}
+
+.BtnFormL{
+    width: 15%;
+    background-color: rgb(168, 115, 157);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-weight: 800;
+    border: 1px double rgb(115, 93, 116);
+    color: #2a2a2a;
+    
+
+}
+
+.row{
+    text-align: center;
+}
+
+.row select{
+    display: block;
+    margin: auto;
+}
+
+.row input{
+    display: block;
+    margin: auto;
+}
+
+
+#odg{
+    color: rgb(229, 204, 231) !important;
+}
+
+
+.table{
+    background-color: rgba(229, 204, 231, 0.719) !important;
+    border: 2px solid rgb(116, 104, 117);
+    color: #2a2a2a;
+    width: 50%;
+    margin-bottom: 50px;
+    margin-left: 24%;
+
+}
