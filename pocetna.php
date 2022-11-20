@@ -1,7 +1,6 @@
 <?php
 
 require "konekcija.php";
-require "models/User.php";
 
 $korisnik="";
 
@@ -12,6 +11,7 @@ if (!isset($_SESSION['user_id'])) {
 }
 
 if (isset($_COOKIE["podaciOUseru"])){
+
     $korisnik=" &hearts; Korisnik: " . $_COOKIE["podaciOUseru"] . " &hearts;";
 }
 
@@ -77,7 +77,6 @@ if (isset($_COOKIE["podaciOUseru"])){
             </center>
 
         </div>
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/main.js"></script>
     <script>

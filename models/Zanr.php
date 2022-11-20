@@ -14,7 +14,10 @@ class Zanr {
 
     public static function vratiZanrove(mysqli $konekcija)
     {
+
         $sql = "SELECT * FROM zanr";
+
+        
         $resultSet = $konekcija->query($sql);
 
         $rezultati = [];

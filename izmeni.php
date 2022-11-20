@@ -18,7 +18,6 @@ if(isset($_POST['izmeni'])){
     $cena = trim($_POST['cena']);
     $pisac = trim($_POST['pisac']);
 
-
     if(Knjiga::izmeniKnjigu($knjiga, $naziv, $zanr, $cena, $pisac, $kon)){
         header("Location: pocetna.php");
     }else{
@@ -71,7 +70,7 @@ $knjige = Knjiga::pretraziKnjige("0", 'asc', $kon);
                         <?php
                         }
                         ?>
-                        </select>
+                    </select>
                     <br>
                     <br>
                     <label for="naziv">Naziv</label>

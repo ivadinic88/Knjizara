@@ -18,7 +18,6 @@ if(isset($_POST['dodaj'])){
     $pisac = trim($_POST['pisac']);
     $zanr = trim($_POST['zanr']);
 
-
     if(Knjiga::dodajKnjigu($naziv, $cena, $pisac, $zanr, $kon)){
         header("Location: pocetna.php");
     }else{
@@ -61,7 +60,7 @@ if(isset($_POST['dodaj'])){
                     <label for="naziv">Naziv</label>
                     <input type="text" id="naziv" name="naziv" class="form-control">
                     <label for="pisac">Pisac</label>
-                    <select id="pisac" name="pisac" class="form-control">
+                    <select id="pisac" name="pisac" class="form-control"> 
                     </select>
                     <label for="zanr">Zanr</label>
                     <select id="zanr" name="zanr" class="form-control">
@@ -72,7 +71,6 @@ if(isset($_POST['dodaj'])){
                     <button class="BtnForm" type="submit" name="dodaj" >Sacuvaj</button>
                     <br><br>
                     <a href="pocetna.php", class="BtnForm">Nazad</a>
-
                 </form>
             </div>
             <div style="height: 40px"></div>
@@ -86,7 +84,6 @@ if(isset($_POST['dodaj'])){
  
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/main.js"></script>
-
     <script>
         function popuniZanrove() {
 

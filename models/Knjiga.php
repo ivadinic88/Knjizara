@@ -28,7 +28,7 @@ class Knjiga
             $sql .= " WHERE k.zanrId = " . $zanr;
         }
 
-
+        
         $sql.= " ORDER BY k.cena " . $cena;
 
         $resultSet = $konekcija->query($sql);

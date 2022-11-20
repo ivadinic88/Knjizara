@@ -28,7 +28,8 @@ class Pisac {
         return $rezultati;
     }
 
-    
+
+
     public static function dodajPisca($ime, $prezime, mysqli $konekcija)
     {
         $odg = $konekcija->query("INSERT INTO pisac VALUES(null, '$ime' , '$prezime' )");

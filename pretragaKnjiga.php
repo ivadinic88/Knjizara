@@ -8,7 +8,6 @@ $cena = trim($_GET['cena']);
 $knjige = Knjiga::pretraziKnjige($zanr, $cena, $kon);
 
 ?>
-
 <table class="table table-hover">
     <thead>
         <tr>
